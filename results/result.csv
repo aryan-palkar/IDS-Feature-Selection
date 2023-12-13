@@ -1,0 +1,13 @@
+,model,feature selection,features,number of features,accuracy_score,recall_score,precision_score,f1_score
+0,RandomForestClassifier,Pearson 0.3,"['Protocol Type', 'UDP', 'ICMP', 'Min']",4,0.49187230298713813,0.3532745986542162,0.32433003239883007,0.3144843312054247
+1,DecisionTreeClassifier,Pearson 0.3,"['Protocol Type', 'UDP', 'ICMP', 'Min']",4,0.4908668146968872,0.3432087415517494,0.31746197209321275,0.30599695657569254
+2,KNeighborsClassifier,Pearson 0.3,"['Protocol Type', 'UDP', 'ICMP', 'Min']",4,0.4547949222841342,0.35926622211441966,0.3187835376979031,0.3061883318704391
+3,RandomForestClassifier,Pearson 0.1,"['Header_Length', 'Protocol Type', 'fin_flag_number', 'rst_flag_number', 'psh_flag_number', 'ack_flag_number', 'ack_count', 'fin_count', 'TCP', 'UDP', 'ICMP', 'Tot sum', 'Min', 'AVG', 'Std', 'Tot size', 'Magnitue', 'Radius']",18,0.7024592567765722,0.5556005874976999,0.48866747296776886,0.495690457809436
+4,DecisionTreeClassifier,Pearson 0.1,"['Header_Length', 'Protocol Type', 'fin_flag_number', 'rst_flag_number', 'psh_flag_number', 'ack_flag_number', 'ack_count', 'fin_count', 'TCP', 'UDP', 'ICMP', 'Tot sum', 'Min', 'AVG', 'Std', 'Tot size', 'Magnitue', 'Radius']",18,0.6900791822028572,0.49575670622349505,0.4696310874130246,0.46790908280093607
+5,KNeighborsClassifier,Pearson 0.1,"['Header_Length', 'Protocol Type', 'fin_flag_number', 'rst_flag_number', 'psh_flag_number', 'ack_flag_number', 'ack_count', 'fin_count', 'TCP', 'UDP', 'ICMP', 'Tot sum', 'Min', 'AVG', 'Std', 'Tot size', 'Magnitue', 'Radius']",18,0.6908123507478319,0.5088596762986325,0.47416890564560993,0.47525642912069715
+6,RandomForestClassifier,RFE 3,"['Min', 'IAT', 'Magnitue']",3,0.9886882567346768,0.7254883216906244,0.7148631640471133,0.7195533847156453
+7,DecisionTreeClassifier,RFE 3,"['Min', 'IAT', 'Magnitue']",3,0.9888348904436717,0.8353505753269302,0.8774091188226257,0.841764712607406
+8,KNeighborsClassifier,RFE 3,"['Min', 'IAT', 'Magnitue']",3,0.9585236080271482,0.5551923639816883,0.5158072103799198,0.5244676960835288
+9,RandomForestClassifier,RFE 3,"['Min', 'Tot size', 'IAT', 'Magnitue']",4,0.99082491935146,0.9276690456257551,0.837865082599454,0.8652213831494304
+10,DecisionTreeClassifier,RFE 3,"['Min', 'Tot size', 'IAT', 'Magnitue']",4,0.9892119485525158,0.8666004041929769,0.8793017163214109,0.8547701642363029
+11,KNeighborsClassifier,RFE 3,"['Min', 'Tot size', 'IAT', 'Magnitue']",4,0.954899660647702,0.5569476243409673,0.5134292271239657,0.5217913404312874

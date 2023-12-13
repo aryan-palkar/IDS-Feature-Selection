@@ -1,0 +1,25 @@
+,model,feature selection,features,number of features,accuracy_score,recall_score,precision_score,f1_score
+0,RandomForestClassifier,RFE,"['Min', 'IAT', 'Magnitue']",3,0.9886882567346768,0.7254883216906244,0.7148631640471133,0.7195533847156453
+1,DecisionTreeClassifier,RFE,"['Min', 'IAT', 'Magnitue']",3,0.9889396288072395,0.8343076922436501,0.8776045688871517,0.8415530234705315
+2,KNeighborsClassifier,RFE,"['Min', 'IAT', 'Magnitue']",3,0.958774980099711,0.5744595909016608,0.5193714592941785,0.5299720250196558
+3,RandomForestClassifier,RFE,"['fin_flag_number', 'Min', 'IAT', 'Magnitue']",4,0.9892957392433701,0.8405456994206993,0.8341924516552135,0.8213786710998194
+4,DecisionTreeClassifier,RFE,"['fin_flag_number', 'Min', 'IAT', 'Magnitue']",4,0.9888139427709581,0.8421523721074509,0.877815046975604,0.8500078477135865
+5,KNeighborsClassifier,RFE,"['fin_flag_number', 'Min', 'IAT', 'Magnitue']",4,0.9599271020989568,0.5737506523056113,0.5217424653541011,0.5317060677107178
+6,RandomForestClassifier,RFE,"['Tot size', 'IAT', 'Magnitue']",3,0.988730152080104,0.8052228289945758,0.7118424849171243,0.7357830056663367
+7,DecisionTreeClassifier,RFE,"['Tot size', 'IAT', 'Magnitue']",3,0.9877037161171394,0.8376949162178002,0.873935135523906,0.8409976578805282
+8,KNeighborsClassifier,RFE,"['Tot size', 'IAT', 'Magnitue']",3,0.9592358288994093,0.5818045218064838,0.5330642488650391,0.5426945021153683
+9,RandomForestClassifier,RFE,"['Min', 'Tot size', 'IAT', 'Magnitue']",4,0.99082491935146,0.9276690456257551,0.837865082599454,0.8652213831494304
+10,DecisionTreeClassifier,RFE,"['Min', 'Tot size', 'IAT', 'Magnitue']",4,0.9894214252796514,0.8536912891755466,0.8797091170317295,0.8474706652024544
+11,KNeighborsClassifier,RFE,"['Min', 'Tot size', 'IAT', 'Magnitue']",4,0.9551091373748376,0.5660465329756993,0.5161606488088304,0.5251707143617464
+12,RandomForestClassifier,RFE,"['syn_count', 'Min', 'Tot size', 'IAT', 'Magnitue']",5,0.9912438728057312,0.8679117113559104,0.7491894139718287,0.7771413655719737
+13,DecisionTreeClassifier,RFE,"['syn_count', 'Min', 'Tot size', 'IAT', 'Magnitue']",5,0.9894633206250786,0.7959859293944389,0.8348783207115534,0.8051445978889759
+14,KNeighborsClassifier,RFE,"['syn_count', 'Min', 'Tot size', 'IAT', 'Magnitue']",5,0.9549625036658427,0.5490531989923458,0.5153931720985653,0.5199536808514373
+15,RandomForestClassifier,RFE,"['fin_flag_number', 'syn_count', 'Min', 'AVG', 'IAT', 'Magnitue']",6,0.989966064770204,0.7924718248537421,0.7165829069096754,0.7316725482550132
+16,DecisionTreeClassifier,RFE,"['fin_flag_number', 'syn_count', 'Min', 'AVG', 'IAT', 'Magnitue']",6,0.9890443671708073,0.7973017515953351,0.8313091129723333,0.801215568173059
+17,KNeighborsClassifier,RFE,"['fin_flag_number', 'syn_count', 'Min', 'AVG', 'IAT', 'Magnitue']",6,0.9566383174829276,0.5475071215841857,0.5148313106113546,0.5193126405107047
+18,RandomForestClassifier,RFE,"['fin_flag_number', 'psh_flag_number', 'syn_count', 'Min', 'Tot size', 'IAT', 'Magnitue']",7,0.9905525996061838,0.7429936565257733,0.702364330441092,0.7120174341254635
+19,DecisionTreeClassifier,RFE,"['fin_flag_number', 'psh_flag_number', 'syn_count', 'Min', 'Tot size', 'IAT', 'Magnitue']",7,0.9894633206250786,0.7875424283399105,0.8143219327007186,0.7918244917359558
+20,KNeighborsClassifier,RFE,"['fin_flag_number', 'psh_flag_number', 'syn_count', 'Min', 'Tot size', 'IAT', 'Magnitue']",7,0.9574552767187565,0.5518206360878508,0.5164298450383448,0.5215232714701511
+21,RandomForestClassifier,RFE,"['fin_flag_number', 'psh_flag_number', 'syn_count', 'Min', 'AVG', 'Tot size', 'IAT', 'Magnitue']",8,0.9897356403703549,0.7076043346996665,0.6834645568945354,0.6923857979346583
+22,DecisionTreeClassifier,RFE,"['fin_flag_number', 'psh_flag_number', 'syn_count', 'Min', 'AVG', 'Tot size', 'IAT', 'Magnitue']",8,0.9892747915706565,0.7772414944080592,0.805481727830115,0.7853454232975702
+23,KNeighborsClassifier,RFE,"['fin_flag_number', 'psh_flag_number', 'syn_count', 'Min', 'AVG', 'Tot size', 'IAT', 'Magnitue']",8,0.9570572709371988,0.54720653025939,0.5148970324918216,0.5191638462657897

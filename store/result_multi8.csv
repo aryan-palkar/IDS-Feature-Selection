@@ -1,0 +1,13 @@
+,model,feature selection,features,number of features,accuracy_score,recall_score,precision_score,f1_score
+0,RandomForestClassifier,Pearson 0.3,"['Protocol Type', 'Min', 'Magnitue']",3,0.8265532699317106,0.48958717664141804,0.4488394715924513,0.4549336454553674
+1,DecisionTreeClassifier,Pearson 0.3,"['Protocol Type', 'Min', 'Magnitue']",3,0.8217353052075914,0.470399493565393,0.43626468438228505,0.44074672016435135
+2,KNeighborsClassifier,Pearson 0.3,"['Protocol Type', 'Min', 'Magnitue']",3,0.8282500314215091,0.5100070026317572,0.44383074910061515,0.45129966840496943
+3,RandomForestClassifier,Pearson 0.1,"['Header_Length', 'Protocol Type', 'fin_flag_number', 'rst_flag_number', 'psh_flag_number', 'ack_flag_number', 'ack_count', 'TCP', 'UDP', 'ICMP', 'Tot sum', 'Min', 'AVG', 'Tot size', 'Magnitue']",15,0.8515438434789895,0.5826473804635808,0.5309981761042561,0.5455505913509724
+4,DecisionTreeClassifier,Pearson 0.1,"['Header_Length', 'Protocol Type', 'fin_flag_number', 'rst_flag_number', 'psh_flag_number', 'ack_flag_number', 'ack_count', 'TCP', 'UDP', 'ICMP', 'Tot sum', 'Min', 'AVG', 'Tot size', 'Magnitue']",15,0.8388705014872848,0.5230751348753603,0.5011857456422115,0.5082498028393382
+5,KNeighborsClassifier,Pearson 0.1,"['Header_Length', 'Protocol Type', 'fin_flag_number', 'rst_flag_number', 'psh_flag_number', 'ack_flag_number', 'ack_count', 'TCP', 'UDP', 'ICMP', 'Tot sum', 'Min', 'AVG', 'Tot size', 'Magnitue']",15,0.7478738112195735,0.5330120364141955,0.5249401828072852,0.5150100959134811
+6,RandomForestClassifier,RFE 4,"['Tot sum', 'Min', 'IAT', 'Magnitue']",4,0.9918932506598517,0.9100802559901014,0.8450511280127215,0.873216577433232
+7,DecisionTreeClassifier,RFE 4,"['Tot sum', 'Min', 'IAT', 'Magnitue']",4,0.9901126984791989,0.8097175682275688,0.8475637738429138,0.8248178165434437
+8,KNeighborsClassifier,RFE 4,"['Tot sum', 'Min', 'IAT', 'Magnitue']",4,0.979408437722569,0.6117670714348398,0.5741803491250801,0.5814193239526164
+9,RandomForestClassifier,RFE 5,"['flow_duration', 'Min', 'AVG', 'IAT', 'Magnitue']",5,0.9925216808412586,0.9120733377873509,0.8251089971010057,0.8557922122362362
+10,DecisionTreeClassifier,RFE 5,"['flow_duration', 'Min', 'AVG', 'IAT', 'Magnitue']",5,0.9909087100423143,0.8067971853202147,0.8619840851191098,0.8288426177828014
+11,KNeighborsClassifier,RFE 5,"['flow_duration', 'Min', 'AVG', 'IAT', 'Magnitue']",5,0.9803091876492521,0.6452921585921961,0.5797260374706651,0.5921975321574338
